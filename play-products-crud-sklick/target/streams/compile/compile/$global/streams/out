@@ -1,0 +1,25 @@
+[error] /home/kiper/Dokumenty/UJ/E-biznes/lab0424/play-products-crud-sklick/app/controllers/SignInController.scala:38:59: not found: type DefaultEnv
+[error]                                    silhouette: Silhouette[DefaultEnv],
+[error]                                                           ^
+[error] /home/kiper/Dokumenty/UJ/E-biznes/lab0424/play-products-crud-sklick/app/controllers/SignInController.scala:39:49: not found: type UserService
+[error]                                    userService: UserService,
+[error]                                                 ^
+[error] /home/kiper/Dokumenty/UJ/E-biznes/lab0424/play-products-crud-sklick/app/controllers/SignInController.scala:57:37: object signIn is not a member of package views.html
+[error]     Future.successful(Ok(views.html.signIn(SignInForm.form, socialProviderRegistry)))
+[error]                                     ^
+[error] /home/kiper/Dokumenty/UJ/E-biznes/lab0424/play-products-crud-sklick/app/controllers/SignInController.scala:67:55: object signIn is not a member of package views.html
+[error]       form => Future.successful(BadRequest(views.html.signIn(form, socialProviderRegistry))),
+[error]                                                       ^
+[error] /home/kiper/Dokumenty/UJ/E-biznes/lab0424/play-products-crud-sklick/app/controllers/SignInController.scala:71:40: value ApplicationController is not a member of object controllers.routes
+[error]           val result = Redirect(routes.ApplicationController.index())
+[error]                                        ^
+[error] /home/kiper/Dokumenty/UJ/E-biznes/lab0424/play-products-crud-sklick/app/views/signin.scala.html:28:92: value SignUpController is not a member of object controllers.routes
+[error]             <p class="not-a-member">@messages("not.a.member") <a href="@controllers.routes.SignUpController.view">@messages("sign.up.now")</a> | <a href="@controllers.routes.ForgotPasswordController.view()" title="@messages("forgot.your.password")">@messages("forgot.your.password")</a></p>
+[error]                                                                                            ^
+[error] /home/kiper/Dokumenty/UJ/E-biznes/lab0424/play-products-crud-sklick/app/views/signin.scala.html:28:175: value ForgotPasswordController is not a member of object controllers.routes
+[error]             <p class="not-a-member">@messages("not.a.member") <a href="@controllers.routes.SignUpController.view">@messages("sign.up.now")</a> | <a href="@controllers.routes.ForgotPasswordController.view()" title="@messages("forgot.your.password")">@messages("forgot.your.password")</a></p>
+[error]                                                                                                                                                                               ^
+[error] /home/kiper/Dokumenty/UJ/E-biznes/lab0424/play-products-crud-sklick/app/views/signin.scala.html:36:50: value SocialAuthController is not a member of object controllers.routes
+[error]                     <a href="@controllers.routes.SocialAuthController.authenticate(p.id)" class="provider @p.id" title="@messages(p.id)"><img src="@assets.path(s"images/providers/${p.id}.png")" width="64px" height="64px" alt="@messages(p.id)"></a>
+[error]                                                  ^
+[error] 8 errors found
