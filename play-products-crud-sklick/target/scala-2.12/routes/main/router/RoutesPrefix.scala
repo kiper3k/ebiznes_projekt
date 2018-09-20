@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/kiper/Dokumenty/UJ/E-biznes/lab0424/play-products-crud-sklick/conf/routes
-// @DATE:Tue Jun 19 13:54:03 CEST 2018
+// @SOURCE:/home/kiper/Dokumenty/UJ/E-biznes/projekt/play-products-crud-sklick/conf/routes
+// @DATE:Wed Sep 19 02:23:29 CEST 2018
 
 
 package router {
